@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @EnableAutoConfiguration
 @Import({com.beans.Student.class})
+@RequestMapping(value = "/springboot")
 public class HelloController {
 
     @Autowired
