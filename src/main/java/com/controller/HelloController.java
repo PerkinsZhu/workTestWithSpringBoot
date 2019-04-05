@@ -1,4 +1,4 @@
-package com.example.singlottest;
+package com.controller;
 
 
 import com.beans.Student;
